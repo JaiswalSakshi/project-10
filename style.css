@@ -114,3 +114,42 @@ nav{
     margin-top: 20px;
     border-radius: 50px;
 }
+/* responsive */
+@media screen and (max-width: 1230px) {
+    .heading h1{
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .logo{
+        margin: 15px 20px;
+    }
+    nav .list-item{
+        display: none;
+    }
+    .second{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .heading h1{
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .box1{
+        margin-top: 0px;
+        margin-left: 90px;
+    }
+    .third{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .button{
+        margin-left: 20px;
+    }
+    .box2{
+        margin: 30px 90px;
+    }
+}
